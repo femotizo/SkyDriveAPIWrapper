@@ -100,6 +100,7 @@ namespace SkyDriveAPI.Objects.Folder
 
     public class FolderContent
     {
+        [JsonProperty(PropertyName = "data")]
         public List<FolderContentData> Files { get; set; }
     }
 
